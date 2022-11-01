@@ -1,0 +1,598 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica-Normal.eot");
+  src: local("вє"), url("../fonts/Helvetica-Normal.woff") format("woff"), url("../fonts/Helvetica-Normal.ttf") format("truetype"), url("../fonts/Helvetica-Normal.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue Regular.eot");
+  src: local("вє"), url("../fonts/HelveticaNeue Regular.woff") format("woff"), url("../fonts/HelveticaNeue Regular.ttf") format("truetype"), url("../fonts/HelveticaNeue Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue Medium";
+  src: url("../fonts/Helvetica Neue Medium Extended.eot");
+  src: local("вє"), url("../fonts/Helvetica Neue Medium Extended.woff") format("woff"), url("../fonts/Helvetica Neue Medium Extended.ttf") format("truetype"), url("../fonts/Helvetica Neue Medium Extended.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("../fonts/Helvetica-Bold-Font.eot");
+  src: local("вє"), url("../fonts/Helvetica-Bold-Font.woff") format("woff"), url("../fonts/Helvetica-Bold-Font.ttf") format("truetype"), url("../fonts/Helvetica-Bold-Font.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 14px;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+body {
+  line-height: 1.4285;
+  color: rgb(51, 51, 51);
+  background-color: white;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+header {
+  position: relative;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .categg, .categss {
+    display: none;
+  }
+  .barcategories {
+    width: 10% !important;
+  }
+  .barinput {
+    width: 60% !important;
+  }
+  .barsignin {
+    width: 30% !important;
+  }
+  .cozy {
+    height: 288px !important;
+    padding: 140px 25px !important;
+    font-size: 15px !important;
+  }
+  .inan {
+    height: 300px !important;
+  }
+  .fromcandles {
+    height: 200px !important;
+  }
+  .fromdecorative {
+    height: 200px !important;
+  }
+  .frompillows {
+    height: 200px !important;
+  }
+  .frommugs {
+    height: 200px !important;
+  }
+  .big {
+    font-size: 14px !important;
+  }
+  .sponsored {
+    font-size: 12px !important;
+  }
+  .featuredco img {
+    max-width: 110px !important;
+    height: 110px !important;
+  }
+  .barsupply {
+    width: 80% !important;
+    font-size: 12px;
+  }
+  .imbgett {
+    padding-top: 220px !important;
+  }
+  .imbfo {
+    padding-top: 240px !important;
+  }
+  .imbour {
+    padding-top: 240px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .categg, .categss {
+    display: none;
+  }
+  .barcategories {
+    width: 10% !important;
+  }
+  .barinput {
+    width: 70% !important;
+  }
+  .barsignin {
+    width: 20% !important;
+  }
+  .cozy {
+    height: 384px !important;
+  }
+  .featuredco img {
+    max-width: 142.01px !important;
+    height: 142.01px !important;
+  }
+  .barsupply {
+    width: 80% !important;
+    font-size: 12px;
+  }
+}
+.rightlist {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.8);
+}
+
+.rightlistco {
+  float: right;
+  width: 375px;
+  height: 100%;
+  box-shadow: inset -10px 25px 10px -30px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.baraccount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.bolded {
+  font-family: "Helvetica Neue Medium";
+}
+
+.big {
+  font-size: 20px;
+}
+
+.exit {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+}
+
+.exit:hover {
+  cursor: pointer;
+  background-color: rgb(162, 162, 162);
+}
+
+.barsrl {
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.normal {
+  font-family: "Helvetica";
+}
+
+.same {
+  padding: 14px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.orders {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trippy {
+  color: #6b6b6b;
+}
+
+.ocircle {
+  color: #cc0100;
+}
+
+.gifty {
+  display: flex;
+  justify-content: space-between;
+}
+
+.redcardd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.registryy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myst {
+  padding: 12px 0;
+}
+
+.headerprev {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding: 15px 40px;
+  box-shadow: #000;
+  -webkit-box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.18);
+  box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.18);
+  background-color: #fff;
+}
+
+.navigation {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.barcategories {
+  display: flex;
+  width: 45%;
+  align-items: center;
+}
+
+.barcategories a:hover {
+  text-decoration: none;
+}
+
+.categg {
+  margin-left: 15px;
+}
+
+.categs1 {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.categs1:hover {
+  background: url("../ico/expandarrow.png") right no-repeat;
+  background-size: 12px 12px;
+  background-position: 110px 15px;
+  background-color: #f7f7f7;
+}
+
+.categdeal {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.categdeal:hover {
+  background: url("../ico/expandarrow.png") right no-repeat;
+  background-size: 12px 12px;
+  background-position: 68px 15px;
+  background-color: #f7f7f7;
+}
+
+.categwhatn {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.categwhatn:hover {
+  background: url("../ico/expandarrow.png") right no-repeat;
+  background-size: 12px 12px;
+  background-position: 117px 15px;
+  background-color: #f7f7f7;
+}
+
+.categwhatn {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.categwhatn:hover {
+  background: url("../ico/expandarrow.png") right no-repeat;
+  background-size: 12px 12px;
+  background-position: 117px 15px;
+  background-color: #f7f7f7;
+}
+
+.categdel {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.categdel:hover {
+  background: url("../ico/expandarrow.png") right no-repeat;
+  background-size: 12px 12px;
+  background-position: 161px 15px;
+  background-color: #f7f7f7;
+}
+
+.barinput {
+  width: 40%;
+}
+
+.searchinput {
+  margin-left: 15px;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+}
+.searchinput input {
+  width: 530px;
+  padding: 12px 80px 12px 12px;
+}
+
+.barsignin {
+  display: flex;
+  width: 15%;
+  justify-content: flex-end;
+}
+.barsignin a:hover {
+  text-decoration: none;
+}
+
+.icguy {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.icguy:hover {
+  background: url("../ico/expandarrow.png") right no-repeat;
+  background-size: 12px 12px;
+  background-position: 93px 15px;
+  background-color: #f7f7f7;
+}
+
+.sig {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.cartt {
+  margin-left: 30px;
+}
+
+.cart {
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+.cart:hover {
+  background-color: #f7f7f7;
+}
+
+.listcategories {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 105px;
+  background: rgba(51, 51, 51, 0.8);
+}
+
+.listco::-webkit-scrollbar {
+  width: 16px;
+}
+
+.listco::-webkit-scrollbar-thumb {
+  background-color: rgb(204, 204, 204);
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+.listco {
+  position: fixed;
+  max-width: 320px;
+  padding: 0 15px;
+  max-height: 500px;
+  overflow: auto;
+  border-radius: 0 0 8px 8px;
+  box-shadow: inset -10px 25px 10px -30px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.allcate {
+  padding: 20px 0;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.librarys {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+  color: #333 !important;
+}
+
+.librarys:active {
+  background-color: #f7f7f7;
+}
+
+.listdeals {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 235px;
+  background: rgba(51, 51, 51, 0.8);
+}
+
+.listdealsco {
+  position: fixed;
+  width: 320px;
+  padding: 0 15px;
+  max-height: 500px;
+  overflow: auto;
+  border-radius: 0 0 8px 8px;
+  box-shadow: inset -10px 25px 10px -30px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.listwhatnew {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 325px;
+  background: rgba(51, 51, 51, 0.8);
+}
+
+.listwhatnewco {
+  position: fixed;
+  width: 320px;
+  padding: 0 15px;
+  max-height: 500px;
+  overflow: auto;
+  border-radius: 0 0 8px 8px;
+  box-shadow: inset -10px 25px 10px -30px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.listpickup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 450px;
+  background: rgba(51, 51, 51, 0.8);
+}
+
+.listpickupco {
+  position: fixed;
+  width: 320px;
+  padding: 0 15px;
+  max-height: 500px;
+  overflow: auto;
+  border-radius: 0 0 8px 8px;
+  box-shadow: inset -10px 25px 10px -30px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.listsearch {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 667px;
+  background: rgba(51, 51, 51, 0.8);
+}
+
+.listsearchco {
+  position: fixed;
+  width: 528px;
+  padding: 0 15px;
+  max-height: 500px;
+  overflow: auto;
+  border-radius: 0 0 8px 8px;
+  background-color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.bgblackfr {
+  background-color: #f7f7f7;
+}
+
+.f {
+  padding: 15px;
+}
+
+.xrest {
+  float: right;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.imq {
+  padding-right: 30px;
+}
+
+.bolded {
+  font-family: "Helvetica Neue Medium";
+}
+
+.big {
+  font-size: 16px;
+}
+
+.bigger {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+.beddingbasics {
+  padding-bottom: 90px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.beddingbasicstop {
+  padding: 10px 0;
+}
+
+.shit {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.barshit {
+  padding: 30px 10px;
+}
+
+.img1 {
+  height: 175px;
+  width: 175px;
+  background: url("../img/WhiteTextiles.webp") center center no-repeat;
+  background-size: contain;
+}
+
+.img2 {
+  height: 175px;
+  width: 175px;
+  background: url("../img/MattressPillowProtectors.webp") center center no-repeat;
+  background-size: contain;
+}
+
+.img3 {
+  height: 175px;
+  width: 175px;
+  background: url("../img/Mattress.webp") center center no-repeat;
+  background-size: contain;
+}
+
+.img4 {
+  height: 175px;
+  width: 175px;
+  background: url("../img/Pillows.webp") center center no-repeat;
+  background-size: contain;
+}
+
+.bott {
+  padding-top: 5px;
+}
+
+@media (min-width: 1200px) {
+  .imblfr {
+    max-height: 48px;
+  }
+}
